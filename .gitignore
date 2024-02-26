@@ -1,0 +1,24 @@
+# Application
+node_modules/*
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+!.env.dev
+
+# Composer
+/vendor
+
+# Node
+/node_modules
+/dist
+/build
+
+# WP-CLI
+wp-cli.local.yml
+.DS_Store
+.idea/*

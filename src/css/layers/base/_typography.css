@@ -1,0 +1,114 @@
+@layer base {
+    .base-text-heading-1 {
+        @apply font-heading text-6xl-mobile;
+        @apply lg:text-6xl;
+    }
+
+    .base-text-heading-2 {
+        @apply font-heading text-5xl-mobile;
+        @apply lg:text-5xl;
+    }
+
+    .base-text-heading-3 {
+        @apply font-heading text-4xl-mobile;
+        @apply lg:text-4xl;
+    }
+
+    .base-text-heading-4 {
+        @apply font-heading text-3xl;
+    }
+
+    .base-text-heading-5 {
+        @apply font-heading text-2xl;
+    }
+
+    .base-text-heading-6 {
+        @apply font-heading text-xl;
+    }
+
+    .base-text-stand-first {
+        @apply font-stand_first text-stand-first-mobile;
+        @apply lg:text-stand-first;
+    }
+
+    .base-text-header-intro {
+        @apply font-stand_first text-header-intro-mobile;
+        @apply lg:text-header-intro;
+    }
+
+    .base-text-nav-text {
+        @apply font-body text-nav-text;
+    }
+
+    .base-text-tick-list {
+        @apply font-body text-tick-list;
+    }
+
+    .base-text-tick-list-bold {
+        @apply font-body text-tick-list-bold;
+    }
+
+    .base-text-tab-label {
+        @apply font-body text-tab-label;
+    }
+
+    .base-text-body {
+        @apply font-body text-base;
+    }
+
+    .base-text-body-light {
+        @apply font-body text-base-light;
+    }
+
+    .base-text-body-medium {
+        @apply font-body text-base-medium;
+    }
+
+    .base-text-body-semibold {
+        @apply font-body text-base-semibold;
+    }
+
+    .base-text-body-bold {
+        @apply font-body text-base-bold;
+    }
+
+    .base-text-body-lg {
+        @apply font-body text-lg;
+    }
+
+    .base-text-body-lg-light {
+        @apply font-body text-lg-light;
+    }
+
+    .base-text-body-lg-medium {
+        @apply font-body text-lg-medium;
+    }
+
+    .base-text-body-lg-bold {
+        @apply font-body text-lg-bold;
+    }
+
+    .base-text-body-lg-semibold {
+        @apply font-body text-lg-semibold;
+    }
+
+    .base-text-body-sm {
+        @apply font-body text-sm;
+    }
+
+    .base-text-body-sm-light {
+        @apply font-body text-sm-light;
+    }
+
+    .base-text-body-sm-medium {
+        @apply font-body text-sm-medium;
+    }
+
+    .base-text-body-sm-semibold {
+        @apply font-body text-sm-semibold;
+    }
+
+    .base-text-body-sm-bold {
+        @apply font-body text-sm-bold;
+    }
+}

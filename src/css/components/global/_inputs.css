@@ -1,0 +1,9 @@
+select {
+    @apply comp-input;
+}
+
+input[type='text'],
+input[type='number'],
+teaxtarea {
+    @apply comp-input;
+}

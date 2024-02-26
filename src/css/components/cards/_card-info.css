@@ -1,0 +1,44 @@
+.card-info {
+    @apply flex min-h-72 w-full flex-wrap items-center justify-between gap-y-10 border-l-4 border-brand-1 bg-white px-5 py-4 shadow-card transition-colors duration-300;
+    @apply hover:bg-brand-1-hover hover:text-white;
+    @apply focus-within:bg-brand-1 focus-within:text-white focus-within:ring-2 focus-within:ring-brand-1-hover focus-within:ring-offset-2;
+
+    &.swiper-slide {
+        @apply flex transition-all;
+    }
+}
+
+.card-info__header {
+    @apply flex w-full justify-between self-start;
+}
+
+.card-info__link {
+    @apply base-text-heading-4 flex w-full justify-between text-brand-1;
+    @apply focus:outline-none;
+    @apply group-hover:text-white;
+    @apply group-focus-within:text-white;
+}
+
+.card-info__link__arrow {
+    @apply shrink-0;
+}
+
+.card-info__footer {
+    @apply grid w-full grid-cols-1 gap-1 self-end;
+}
+
+.card-info__footer__date {
+    @apply base-text-body-medium;
+}
+
+.card-info__footer__date-title {
+    @apply base-text-body-light;
+}
+
+.card-info__category-list {
+    @apply m-0 list-none p-0;
+}
+
+.card-info__category-list__item {
+    @apply base-text-body-medium inline-flex gap-2;
+}

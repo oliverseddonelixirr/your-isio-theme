@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'layers/base/index.css';
+
+@import 'tailwindcss/components';
+@import 'layers/components/index.css';
+
+@import 'tailwindcss/utilities';
+@import 'layers/utilities/index.css';
+
+@import 'base/index.css';
+@import 'components/index.css';
+@import 'wp-blocks/index.css';
+
+@import-glob '../../inc/Blocks/**/*.css';
+@import-glob './vendor/**/*.css';
+
+.acf-block-preview {
+    @apply mb-7;
+    @apply md:mb-10;
+    @apply lg:mb-16;
+
+    .content-container {
+        @apply base-container;
+    }
+}

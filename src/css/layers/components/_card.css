@@ -1,0 +1,18 @@
+@layer components {
+    .comp-card {
+        @apply rounded-bl-card-border-bottom-left rounded-br-card-border-bottom-right rounded-tl-card-border-top-left rounded-tr-card-border-top-right;
+    }
+
+    .comp-card-info {
+        @apply flex flex-col justify-between border-l-4 border-brand-1 p-5;
+    }
+
+    .comp-card-news {
+        @apply grid grid-cols-1 gap-5;
+    }
+
+    .comp-media-zoom {
+        @apply transition-transform duration-300;
+        @apply group-hover:scale-110;
+    }
+}

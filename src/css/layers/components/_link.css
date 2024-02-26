@@ -1,0 +1,28 @@
+@layer components {
+    .comp-link {
+        @apply items-center justify-center bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-[0%_100%] bg-no-repeat transition-[background] duration-300;
+        @apply hover:bg-[length:100%_2px];
+        @apply group-hover:bg-[length:100%_2px];
+        @apply focus-visible:bg-[length:100%_2px];
+        @apply focus:outline-none focus:ring-0;
+    }
+
+    .comp-link--active {
+        @apply bg-[length:100%_2px];
+    }
+
+    .comp-link--slim {
+        @apply bg-[length:0%_1px];
+        @apply hover:bg-[length:100%_1px];
+        @apply group-hover:bg-[length:100%_1px];
+        @apply focus-visible:bg-[length:100%_1px];
+    }
+
+    .comp-link--white {
+        @apply from-white to-white;
+    }
+
+    .comp-link--primary {
+        @apply from-brand-1 to-brand-1;
+    }
+}

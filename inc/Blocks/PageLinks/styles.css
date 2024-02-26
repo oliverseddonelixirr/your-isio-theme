@@ -1,0 +1,62 @@
+.wp-block-page-links {
+    @apply base-text-body-medium px-5;
+}
+
+.wp-block-page-links--background {
+    @apply bg-brand-section-background;
+}
+
+.wp-block-page-links__inner {
+    @apply base-container base-container-row grid grid-cols-1 gap-y-8;
+    @apply lg:gap-y-14;
+}
+
+.wp-block-page-links__header {
+    @apply flex w-full flex-wrap items-baseline justify-between gap-y-6;
+}
+
+.wp-block-page-links__header__title {
+    @apply base-text-heading-2 w-full text-brand-1-heading;
+    @apply lg:w-auto;
+}
+
+.wp-block-page-links__header__text {
+    @apply base-text-heading-6 w-full;
+    @apply lg:w-auto lg:text-right;
+}
+
+.wp-block-page-links__grid {
+    @apply grid grid-cols-2 gap-8;
+    @apply gap-12 md:grid-cols-3;
+    @apply lg:grid-cols-4;
+    @apply xl:grid-cols-6;
+}
+
+.wp-block-page-links__card {
+    @apply flex w-full flex-wrap items-center justify-between bg-white px-2 py-4 text-center shadow-card-small transition-colors duration-300;
+    @apply hover:bg-brand-1 hover:text-white;
+    @apply focus-within:bg-brand-1 focus-within:text-white focus-within:ring-2 focus-within:ring-brand-1-hover focus-within:ring-offset-2;
+}
+
+.wp-block-page-links__card__icon {
+    @apply flex w-full justify-center text-brand-icon;
+    @apply group-focus-within:text-white;
+    @apply group-hover:text-white;
+}
+
+.wp-block-page-links__card__title {
+    @apply base-text-body-medium w-full;
+}
+
+.wp-block-page-links__card__link {
+    @apply focus:text-white focus:outline-none focus:ring-0;
+    @apply group-hover:text-white;
+}
+
+.wp-block-page-links__footer {
+    @apply flex w-full justify-center;
+}
+
+.wp-block-page-links__footer__link {
+    @apply comp-button comp-button--primary;
+}

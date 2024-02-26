@@ -1,0 +1,16 @@
+.content-navigation {
+    @apply bg-brand-neutral-20 py-5;
+    @apply lg:py-10;
+}
+
+.content-navigation__list {
+    @apply base-container flex list-none flex-wrap gap-3;
+}
+
+.content-navigation__link {
+    @apply comp-button-rounded comp-button comp-button--fat comp-button--primary-inverted;
+}
+
+.content-navigation__link--current {
+    @apply bg-brand-1 text-white;
+}

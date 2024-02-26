@@ -1,0 +1,20 @@
+{
+    "name": "acf/page-intro",
+    "title": "Page Intro",
+    "description": "",
+    "category": "edx-blocks",
+    "icon": "text-page",
+    "keywords": ["intro"],
+    "supports": {
+        "align": ["full"]
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "auto"
+    }
+}

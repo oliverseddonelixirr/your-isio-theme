@@ -1,0 +1,32 @@
+.wp-block-search-form {
+    @apply text-xl
+        xl:text-2xl;
+
+    .page-content > & {
+        @apply mb-10;
+    }
+
+    form {
+        @apply flex
+            flex-col
+            items-center
+            gap-4
+            md:flex-row;
+    }
+
+    label {
+        @apply block
+            pb-1;
+    }
+
+    &__fields {
+        @apply flex
+            border-b
+            border-b-gray-500
+            pb-2;
+    }
+
+    input {
+        @apply font-bold;
+    }
+}

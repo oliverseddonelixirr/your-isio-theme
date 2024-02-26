@@ -1,0 +1,43 @@
+.highlight-label {
+    @apply base-text-body-light inline-block bg-amber-300 px-5 py-1 uppercase text-black;
+}
+
+.transparent {
+    @apply util-scroll-animation opacity-0;
+
+    &.in-view {
+        @apply opacity-100;
+    }
+}
+
+.move-up {
+    @apply util-scroll-animation translate-y-10 transform;
+
+    &.in-view {
+        @apply translate-y-0;
+    }
+}
+
+.move-down {
+    @apply util-scroll-animation -translate-y-10 transform;
+
+    &.in-view {
+        @apply translate-y-0;
+    }
+}
+
+.move-right {
+    @apply util-scroll-animation translate-x-10 transform;
+
+    &.in-view {
+        @apply translate-x-0;
+    }
+}
+
+.move-left {
+    @apply util-scroll-animation -translate-x-10 transform;
+
+    &.in-view {
+        @apply translate-x-0;
+    }
+}

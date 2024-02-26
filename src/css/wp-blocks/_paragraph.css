@@ -1,0 +1,12 @@
+.page-content,
+.acf-innerblocks-container {
+    > p {
+        a {
+            @apply text-brand-1;
+        }
+
+        img {
+            @apply inline-block;
+        }
+    }
+}

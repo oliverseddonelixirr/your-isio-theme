@@ -1,0 +1,9 @@
+.breadcrumb {
+    > span {
+        @apply base-text-body-sm-medium inline-flex items-center gap-x-2;
+    }
+
+    a {
+        @apply comp-link comp-link--white comp-link--slim;
+    }
+}

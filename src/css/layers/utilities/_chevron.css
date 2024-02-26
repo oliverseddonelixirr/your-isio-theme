@@ -1,0 +1,16 @@
+@layer utilities {
+    .util-chevron {
+        --chevron-image: url('data:image/svg+xml;utf8,<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 9.5L5 5.5L1 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+        @apply inline-flex items-center;
+        @apply before:bottom-auto before:top-auto;
+        @apply after:bottom-auto after:top-auto;
+    }
+
+    .util-chevron--right {
+        @apply after:left-auto after:right-0 after:h-[11px] after:w-1.5 after:bg-current after:content-[''] after:[mask-image:var(--chevron-image)];
+    }
+
+    .util-chevron--left {
+        @apply before:h-[11px] before:w-1.5 before:rotate-180 before:bg-current before:content-[''] before:[mask-image:var(--chevron-image)] after:left-0 after:right-auto;
+    }
+}

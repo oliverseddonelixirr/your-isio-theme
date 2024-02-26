@@ -1,0 +1,122 @@
+.wp-block-wrapper {
+    @apply w-full bg-contain bg-no-repeat;
+    @apply lg:bg-auto;
+
+    .wp-block-page-intro__inner {
+        @apply max-w-full p-0;
+    }
+
+    .wp-block-cards__container {
+        @apply max-w-full p-0;
+    }
+
+    .wp-block-faq-tabs__inner {
+        @apply max-w-full p-0;
+    }
+}
+
+.wp-block-wrapper--natural {
+    @apply bg-contain;
+    @apply lg:bg-auto;
+}
+
+.wp-block-wrapper--cover {
+    @apply bg-cover;
+}
+
+.wp-block-wrapper--contain {
+    @apply bg-contain;
+}
+
+.wp-block-wrapper--top-left {
+    @apply bg-left-top;
+}
+
+.wp-block-wrapper--top-middle {
+    @apply bg-top;
+}
+
+.wp-block-wrapper--top-right {
+    @apply bg-right-top;
+}
+
+.wp-block-wrapper--center-left {
+    @apply bg-left;
+}
+
+.wp-block-wrapper--center-middle {
+    @apply bg-center;
+}
+
+.wp-block-wrapper--center-right {
+    @apply bg-right;
+}
+
+.wp-block-wrapper--bottom-left {
+    @apply bg-left-bottom;
+}
+
+.wp-block-wrapper--bottom-middle {
+    @apply bg-bottom;
+}
+
+.wp-block-wrapper--bottom-right {
+    @apply bg-right-bottom;
+}
+
+.wp-block-wrapper--bg-brand-light {
+    @apply bg-brand-section-background;
+}
+
+.wp-block-wrapper--bg-brand-dark {
+    @apply bg-brand-1;
+
+    .wp-block-page-intro__intro {
+        @apply text-white;
+    }
+
+    .wp-block-page-intro__copy {
+        @apply text-white;
+    }
+
+    .wp-block-faq-tabs__header__title {
+        @apply text-white;
+    }
+
+    .card-info {
+        @apply hover:border-white;
+    }
+}
+
+.wp-block-wrapper__content {
+    @apply base-container base-container-row;
+
+    .wp-block-wrapper--two-columns & {
+        @apply grid gap-y-8;
+        @apply lg:grid-cols-2 lg:items-center lg:gap-x-8;
+
+        .acf-innerblocks-container {
+            @apply gap-y-12;
+        }
+
+        .wp-block-page-intro__content {
+            @apply gap-y-4;
+        }
+
+        .wp-block-page-intro__intro {
+            @apply base-text-heading-2;
+        }
+
+        .gfield--input-type-text,
+        .gfield--input-type-phone,
+        .gfield--input-type-email,
+        .gfield--input-type-select {
+            @apply col-span-12;
+            @apply xl:col-span-7;
+        }
+    }
+}
+
+.wp-block-wrapper__image {
+    @apply w-full max-w-screen-sm;
+}

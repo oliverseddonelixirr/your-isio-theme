@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'), url('@fonts/TTHoves-Light.woff2') format('woff2'),
+        url('@fonts/TTHoves-Light.woff') format('woff'),
+        url('@fonts/TTHoves-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'),
+        url('@fonts/TTHoves-LightItalic.woff2') format('woff2'),
+        url('@fonts/TTHoves-LightItalic.woff') format('woff'),
+        url('@fonts/TTHoves-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'), url('@fonts/TTHoves-Medium.woff2') format('woff2'),
+        url('@fonts/TTHoves-Medium.woff') format('woff'),
+        url('@fonts/TTHoves-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'),
+        url('@fonts/TTHoves-MediumItalic.woff2') format('woff2'),
+        url('@fonts/TTHoves-MediumItalic.woff') format('woff'),
+        url('@fonts/TTHoves-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'), url('@fonts/TTHoves-DemiBold.woff2') format('woff2'),
+        url('@fonts/TTHoves-DemiBold.woff') format('woff'),
+        url('@fonts/TTHoves-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'),
+        url('@fonts/TTHoves-DemiBoldItalic.woff2') format('woff2'),
+        url('@fonts/TTHoves-DemiBoldItalic.woff') format('woff'),
+        url('@fonts/TTHoves-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'), url('@fonts/TTHoves-Bold.woff2') format('woff2'),
+        url('@fonts/TTHoves-Bold.woff') format('woff'),
+        url('@fonts/TTHoves-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves'),
+        url('@fonts/TTHoves-BoldItalic.woff2') format('woff2'),
+        url('@fonts/TTHoves-BoldItalic.woff') format('woff'),
+        url('@fonts/TTHoves-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pridi';
+    src: local('Pridi'),
+        url('@fonts/pridi-latin-300-normal.woff2') format('woff2'),
+        url('@fonts/pridi-latin-300-normal.woff') format('woff'),
+        url('@fonts/pridi-latin-300-normal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pridi';
+    src: local('Pridi'),
+        url('@fonts/pridi-latin-400-normal.woff2') format('woff2'),
+        url('@fonts/pridi-latin-400-normal.woff') format('woff'),
+        url('@fonts/pridi-latin-400-normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pridi';
+    src: local('Pridi'),
+        url('@fonts/pridi-latin-500-normal.woff2') format('woff2'),
+        url('@fonts/pridi-latin-500-normal.woff') format('woff'),
+        url('@fonts/pridi-latin-500-normal.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pridi';
+    src: local('Pridi'),
+        url('@fonts/pridi-latin-600-normal.woff2') format('woff2'),
+        url('@fonts/pridi-latin-600-normal.woff') format('woff'),
+        url('@fonts/pridi-latin-600-normal.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pridi';
+    src: local('Pridi'),
+        url('@fonts/pridi-latin-700-normal.woff2') format('woff2'),
+        url('@fonts/pridi-latin-700-normal.woff') format('woff'),
+        url('@fonts/pridi-latin-700-normal.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-300-normal.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-300-normal.woff') format('woff'),
+        url('@fonts/open-sans-latin-300-normal.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-300-italic.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-300-italic.woff') format('woff'),
+        url('@fonts/open-sans-latin-300-italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-500-normal.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-500-normal.woff') format('woff'),
+        url('@fonts/open-sans-latin-500-normal.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-500-italic.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-500-italic.woff') format('woff'),
+        url('@fonts/open-sans-latin-500-italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-600-normal.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-600-normal.woff') format('woff'),
+        url('@fonts/open-sans-latin-600-normal.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-600-italic.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-600-italic.woff') format('woff'),
+        url('@fonts/open-sans-latin-600-italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-700-normal.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-700-normal.woff') format('woff'),
+        url('@fonts/open-sans-latin-700-normal.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('@fonts/open-sans-latin-700-italic.woff2') format('woff2'),
+        url('@fonts/open-sans-latin-700-italic.woff') format('woff'),
+        url('@fonts/open-sans-latin-700-italic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}

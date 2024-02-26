@@ -1,0 +1,70 @@
+.wp-block-plsa-form {
+    @apply comp-card flex justify-center border-b-[length:var(--isio-card-static-border-height)] border-b-brand-1 bg-white p-12 shadow-card;
+}
+
+.wp-block-plsa-form__inner {
+    @apply flex h-full max-w-screen-sm flex-wrap justify-center gap-x-7;
+    @apply lg:flex-nowrap;
+}
+
+.wp-block-plsa-form__media {
+    @apply mb-6 flex w-full max-w-20 shrink-0 items-start justify-center;
+    @apply lg:mb-0 lg:justify-start;
+}
+
+.wp-block-plsa-form__main {
+    @apply grid w-full items-start gap-y-6;
+}
+
+.wp-block-plsa-form__copy {
+    @apply flex w-full flex-wrap gap-y-6;
+}
+
+.wp-block-plsa-form__title {
+    @apply base-text-heading-3 text-brand-1-heading;
+}
+
+.wp-block-plsa-form__link {
+    @apply flex w-full justify-center self-end;
+    @apply md:justify-start;
+}
+
+.wp-block-plsa-form__button {
+    @apply comp-button comp-button--primary;
+}
+
+.wp-block-plsa-form__form {
+    @apply flex w-full flex-wrap gap-x-2 gap-y-4;
+}
+
+.wp-block-plsa-form__content-sub {
+    @apply base-text-body-sm-light;
+}
+
+.wp-block-plsa-form__label {
+    @apply comp-label;
+}
+
+.wp-block-plsa-form__input-row {
+    @apply inline-flex w-full flex-wrap items-center gap-x-2.5 gap-y-2;
+}
+
+.wp-block-plsa-form__input-row__inner {
+    @apply base-text-body-medium inline-flex w-full items-center gap-2 text-brand-1-heading;
+}
+
+.wp-block-plsa-form__inner__input {
+    @apply comp-input comp-input--element max-w-80 shrink-0 px-1;
+}
+
+.wp-block-plsa-form__input-row__inner--hidden {
+    @apply hidden;
+
+    &.available {
+        @apply inline-flex;
+    }
+}
+
+.wp-block-plsa-form__toggle {
+    @apply comp-toggle;
+}

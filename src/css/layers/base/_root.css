@@ -1,0 +1,113 @@
+@layer base {
+    :root {
+        --isio-colour-brand1: 0 186 141;
+        --isio-colour-brand1-20: 0 212 156;
+        --isio-colour-brand1-30: 0 157 116;
+        --isio-colour-brand1-40: var(--isio-colour-brand1);
+        --isio-colour-brand-neutral-10: 51 51 51;
+        --isio-colour-brand-neutral-20: 247 247 247;
+        --isio-colour-brand-neutral-30: 217 217 217;
+        --isio-colour-brand-neutral-40: 48 48 48;
+
+        --isio-font-1: 'TT Hoves';
+        --isio-font-2: var(--isio-font-1);
+
+        --isio-font-heading-weight: 600;
+        --isio-font-heading: var(--isio-font-1);
+        --isio-font-stand-first: var(--isio-font-1);
+        --isio-font-body: var(--isio-font-1);
+        --isio-font-button: var(--isio-font-1);
+
+        --isio-card-border-top-left: 0px;
+        --isio-card-border-top-right: 0px;
+        --isio-card-border-bottom-right: 0px;
+        --isio-card-border-bottom-left: 0px;
+        --isio-card-static-border-height: 5px;
+
+        --isio-button-border-top-left: 9999px;
+        --isio-button-border-top-right: 9999px;
+        --isio-button-border-bottom-right: 9999px;
+        --isio-button-border-bottom-left: 9999px;
+
+        --isio-input-border-top-left: 4px;
+        --isio-input-border-top-right: 4px;
+        --isio-input-border-bottom-right: 4px;
+        --isio-input-border-bottom-left: 4px;
+
+        --isio-rounded-1: 4px;
+        --isio-rounded-2: 8px;
+        --isio-rounded-3: 9999px;
+
+        --isio-header-height: 92px;
+        --isio-header-border-top: 0px;
+        --isio-header-border-bottom: 0px;
+        --isio-header-border-colour: 'transparent';
+        --isio-header-background: 255 255 255;
+
+        --isio-header-banner-border-top: 0px;
+        --isio-header-banner-border-bottom: 0px;
+        --isio-header-banner-border-colour: 'transparent';
+
+        --isio-nav-colour: var(--isio-colour-brand-neutral-40);
+
+        --isio-footer-width: 66%;
+
+        --isio-logo-width: 123px;
+        --isio-logo-height: 51px;
+
+        /* --isio-colour-brand1: 233 95 71;
+        --isio-colour-brand1-20: 227 6 19;
+        --isio-colour-brand1-30: 190 60 45;
+        --isio-colour-brand1-40: var(--isio-colour-brand1);
+        --isio-colour-brand-neutral-10: 51 51 51;
+        --isio-colour-brand-neutral-20: 239 238 238;
+        --isio-colour-brand-neutral-30: 217 217 217;
+        --isio-colour-brand-neutral-40: 48 48 48;
+
+        --isio-font-1: 'Open Sans';
+        --isio-font-2: 'Pridi';
+
+        --isio-font-heading-weight: 400;
+        --isio-font-heading: var(--isio-font-2);
+        --isio-font-stand-first: var(--isio-font-1);
+        --isio-font-body: var(--isio-font-1);
+        --isio-font-button: var(--isio-font-1);
+
+        --isio-card-border-top-left: 0px;
+        --isio-card-border-top-right: 50px;
+        --isio-card-border-bottom-right: 0px;
+        --isio-card-border-bottom-left: 50px;
+        --isio-card-static-border-height: 0px;
+
+        --isio-button-border-top-left: 0px;
+        --isio-button-border-top-right: 20px;
+        --isio-button-border-bottom-right: 0px;
+        --isio-button-border-bottom-left: 20px;
+
+        --isio-input-border-top-left: 4px;
+        --isio-input-border-top-right: 4px;
+        --isio-input-border-bottom-right: 4px;
+        --isio-input-border-bottom-left: 4px;
+
+        --isio-rounded-1: 4px;
+        --isio-rounded-2: 8px;
+        --isio-rounded-3: 9999px;
+
+        --isio-header-height: 92px;
+        --isio-header-border-top: 10px;
+        --isio-header-border-bottom: 0px;
+        --isio-header-border-colour: 255 255 255;
+        --isio-header-background: var(--isio-colour-brand-neutral-20);
+
+        --isio-header-banner-border-top: 0px;
+        --isio-header-banner-border-bottom: 10px;
+        --isio-header-banner-border-colour: var(--isio-colour-brand-1);
+
+        --isio-nav-colour: var(--isio-colour-brand-1);
+
+        --isio-footer-width: 75%;
+
+        --isio-logo-width: 241px;
+        --isio-logo-height: 71px; */
+    }
+}

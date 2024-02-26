@@ -1,0 +1,79 @@
+.wp-block-plsa-sections {
+    @apply base-text-body-medium;
+}
+
+.wp-block-plsa-sections--background {
+    @apply bg-brand-section-background;
+}
+
+.wp-block-plsa-sections__inner {
+    @apply base-container base-container-row;
+}
+
+.wp-block-plsa-sections__inner--intro {
+    @apply grid grid-cols-1 gap-8;
+    @apply lg:grid-cols-2;
+}
+
+.wp-block-plsa-sections__intro {
+    @apply flex flex-wrap content-start gap-y-6;
+}
+
+.wp-block-plsa-sections__additional {
+    @apply base-text-body-sm-light w-full;
+}
+
+.wp-block-plsa-sections__inner-title {
+    @apply base-text-heading-3 mb-10 text-brand-1-heading;
+}
+
+.wp-block-plsa-sections__link-intro {
+    @apply base-text-body-sm-semibold w-full;
+}
+
+.wp-block-plsa-sections__button {
+    @apply comp-button comp-button--primary;
+}
+
+.wp-block-plsa-sections__inner-grid {
+    @apply grid grid-cols-1 gap-8;
+    @apply md:grid-cols-2 md:gap-10;
+    @apply xl:grid-cols-3 xl:gap-10;
+}
+
+.wp-block-plsa-sections__card {
+    @apply grid shadow-card;
+}
+
+.wp-block-plsa-sections__card__inner {
+    @apply grid items-start bg-white;
+}
+
+.wp-block-plsa-sections__media {
+    @apply hidden overflow-hidden;
+    @apply md:block;
+
+    img {
+        @apply h-auto w-full object-cover;
+    }
+}
+
+.wp-block-plsa-sections__main {
+    @apply grid grid-cols-1 items-start;
+}
+
+.wp-block-plsa-sections__title {
+    @apply base-text-heading-3 text-brand-1-heading;
+}
+
+.wp-block-plsa-sections__content {
+    @apply grid grid-cols-1 gap-y-2 p-6;
+}
+
+.wp-block-plsa-sections__content__value {
+    @apply base-text-body-medium;
+}
+
+.wp-block-plsa-sections__footer {
+    @apply grid grid-cols-1 items-start gap-y-6 self-end px-6 pb-6;
+}

@@ -1,0 +1,13 @@
+.wp-block-image {
+    @apply mx-5;
+    @apply lg:mx-0;
+
+    .page-content > & {
+        @apply mx-5 flex max-w-screen-lg flex-col items-center text-center;
+        @apply lg:mx-auto;
+    }
+
+    .wp-element-caption {
+        @apply mt-3;
+    }
+}

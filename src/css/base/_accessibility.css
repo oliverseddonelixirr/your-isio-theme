@@ -1,0 +1,5 @@
+.skip-link {
+    @apply comp-link absolute -top-full left-0 right-0 z-50 flex w-full items-center justify-center bg-brand-1 px-2 py-4 text-black no-underline outline-none outline-offset-0;
+    @apply focus-within:sticky focus-within:top-0 focus-within:text-black focus-within:transition-all focus-within:duration-300;
+    @apply visited:text-black;
+}

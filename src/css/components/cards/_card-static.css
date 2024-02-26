@@ -1,0 +1,52 @@
+.card-static {
+    @apply comp-card justify-center border-b-[length:var(--isio-card-static-border-height)] border-b-brand-1 bg-white p-12 shadow-card;
+
+    &.swiper-slide {
+        @apply flex;
+    }
+
+    .wp-block-cards--cols-2.wp-block-cards--odd & {
+        @apply first-of-type:md:col-span-2;
+
+        &:first-of-type {
+            .card-static__inner {
+                @apply md:flex-nowrap;
+            }
+        }
+    }
+}
+
+.card-static__inner {
+    @apply flex h-full max-w-screen-sm flex-wrap justify-center gap-x-7;
+    @apply lg:flex-nowrap;
+}
+
+.card-static__media {
+    @apply mb-6 flex w-full max-w-20 shrink-0 items-start justify-center;
+    @apply lg:mb-0 lg:justify-start;
+
+    img {
+        @apply comp-media-zoom;
+    }
+}
+
+.card-static__main {
+    @apply grid w-full items-start gap-y-6;
+}
+
+.card-static__copy {
+    @apply flex w-full flex-wrap gap-y-6;
+}
+
+.card-static__title {
+    @apply base-text-heading-3 text-brand-1-heading;
+}
+
+.card-static__link {
+    @apply flex w-full justify-center self-end;
+    @apply md:justify-start;
+}
+
+.card-static__button {
+    @apply comp-button comp-button--primary;
+}

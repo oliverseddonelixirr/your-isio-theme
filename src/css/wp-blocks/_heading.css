@@ -1,0 +1,6 @@
+.page-content,
+.acf-innerblocks-container {
+    > .wp-block-heading {
+        @apply mb-5 max-w-3xl;
+    }
+}

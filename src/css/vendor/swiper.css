@@ -1,0 +1,45 @@
+.swiper-container {
+    @apply max-w-[100vw]
+        overflow-hidden;
+}
+
+.swiper .swiper-slide {
+    @apply h-auto;
+}
+
+.swiper-controls {
+    @apply flex
+        gap-1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    @apply flex
+        h-7
+        w-7
+        items-center
+        justify-center
+        rounded-full
+        border-[2px]
+        border-transparent;
+
+    &:not(.swiper-button-disabled),
+    &:not([disabled]) {
+        @apply hover:border-[currentColor];
+    }
+
+    &.swiper-button-disabled,
+    &[disabled] {
+        @apply opacity-20;
+    }
+}
+
+.swiper-button-prev svg {
+    @apply mr-[3px];
+
+    transform: rotate(180deg);
+}
+
+.swiper-button-next svg {
+    @apply ml-[2px];
+}

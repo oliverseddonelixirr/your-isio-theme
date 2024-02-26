@@ -1,0 +1,5 @@
+.wp-block-quote {
+    @apply mx-5 flex max-w-[610px] flex-col gap-5 border-l border-l-black px-5;
+    @apply md:mx-auto;
+    @apply xl:px-8;
+}

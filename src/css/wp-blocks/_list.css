@@ -1,0 +1,15 @@
+.page-content,
+.acf-innerblocks-container {
+    > ul,
+    > ol {
+        @apply mb-5 max-w-3xl list-inside list-disc;
+
+        a {
+            @apply text-brand-1;
+        }
+    }
+
+    > ol {
+        @apply list-decimal;
+    }
+}

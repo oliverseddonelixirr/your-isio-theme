@@ -1,0 +1,20 @@
+.page-content,
+.acf-innerblocks-container {
+    > p:last-child {
+        @apply mb-3.5;
+    }
+
+    > p + [class^='wp-block-'] {
+        @apply mt-3.5;
+    }
+}
+
+.page-content {
+    > .wp-block-heading,
+    > p,
+    > ol,
+    > ul {
+        @apply mx-5;
+        @apply md:mx-auto;
+    }
+}

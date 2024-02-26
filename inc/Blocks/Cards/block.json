@@ -1,0 +1,21 @@
+{
+    "name": "acf/cards",
+    "title": "Cards",
+    "description": "",
+    "category": "edx-blocks",
+    "icon": "grid-view",
+    "keywords": ["cards", "related"],
+    "supports": {
+        "align": ["full"],
+        "anchor": true
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "auto"
+    }
+}

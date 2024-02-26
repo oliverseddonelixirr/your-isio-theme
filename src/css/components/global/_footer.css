@@ -1,0 +1,137 @@
+.footer {
+    @apply bg-brand-footer py-14;
+    @apply xl:pb-64;
+}
+
+.footer__container {
+    @apply base-container relative z-10 flex flex-col text-white;
+}
+
+.footer__container__logo {
+    @apply base-container flex w-full justify-end pt-9;
+    @apply xl:fixed xl:bottom-[calc((theme(spacing.64)-theme(spacing.9))-theme(spacing.14))] xl:right-9 xl:z-0 xl:p-0;
+}
+
+.footer__container__inner {
+    @apply mb-10 flex max-w-footer flex-wrap justify-between gap-8;
+    @apply lg:flex-nowrap;
+}
+
+.footer__container__inner--logo {
+    .footer__container__inner {
+        @apply max-w-full;
+    }
+
+    .footer__container__inner__block {
+        @apply max-w-full;
+    }
+
+    .footer__container__lower {
+        @apply max-w-full;
+    }
+}
+
+.footer__container__inner__block {
+    @apply flex w-full max-w-96 flex-col gap-5;
+
+    .footer__container__inner__block {
+        @apply max-w-full;
+    }
+
+    p {
+        @apply base-text-body-light;
+    }
+}
+
+.footer__container__inner__block--split {
+    @apply flex flex-row flex-wrap gap-8;
+    @apply lg:flex-nowrap lg:gap-5;
+}
+
+.footer__container__inner__block-image {
+    @apply flex w-full shrink-0 items-start;
+    @apply lg:w-auto;
+}
+
+.footer__container__inner__block-title {
+    @apply base-text-heading-4;
+}
+
+.footer__container__inner__block-list {
+    @apply grid grid-cols-[repeat(2,_minmax(0,_max-content))] items-start gap-x-5 gap-y-2.5;
+}
+
+.footer__container__inner__block-col {
+    @apply grid grid-cols-1 items-start gap-x-5 gap-y-2.5;
+
+    a {
+        @apply comp-link comp-link--white;
+    }
+
+    p,
+    address {
+        @apply base-text-body-light not-italic;
+    }
+}
+
+.footer__container__inner__block-col--titles {
+    p {
+        @apply base-text-body-bold;
+    }
+}
+
+.footer__container__lower {
+    @apply flex w-full max-w-footer flex-wrap gap-8 border-t border-white py-4;
+    @apply lg:gap-2.5;
+}
+
+.footer__container__menu {
+    @apply w-full;
+
+    .menu {
+        @apply inline-flex flex-wrap items-center gap-x-10 gap-y-2;
+        @apply lg:flex-nowrap;
+
+        a {
+            @apply comp-link comp-link--white;
+        }
+    }
+}
+
+.footer__container__copy {
+    @apply w-full;
+
+    p {
+        @apply base-text-body-bold;
+    }
+}
+
+.footer-banner {
+    @apply base-container-row bg-[right_top_40px] bg-no-repeat;
+}
+
+.footer-banner__container {
+    @apply base-container;
+}
+
+.footer-banner__inner {
+    @apply comp-card flex w-full flex-wrap items-center justify-center gap-12 border-2 border-brand-1 px-8 py-8;
+    @apply md:flex-nowrap md:px-16 md:py-16;
+    @apply xl:px-52;
+}
+
+.footer-banner__image {
+    @apply order-1 flex max-w-44 shrink-0;
+
+    svg {
+        @apply text-brand-1;
+    }
+}
+
+.footer-banner__copy {
+    @apply order-2 flex flex-col flex-wrap gap-8;
+}
+
+.footer-banner__copy-title {
+    @apply base-text-heading-1 text-brand-1-heading;
+}

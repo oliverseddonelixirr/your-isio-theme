@@ -1,0 +1,44 @@
+.card-selected {
+    @apply shadow-card;
+}
+
+.card-selected__inner {
+    @apply grid h-full grid-cols-1;
+}
+
+.card-selected__media {
+    @apply hidden overflow-hidden;
+    @apply md:block;
+
+    img {
+        @apply comp-media-zoom h-full w-auto object-cover;
+    }
+}
+
+.card-selected__main {
+    @apply grid h-full grid-cols-1 gap-y-6 bg-white p-8;
+}
+
+.card-selected__title {
+    @apply base-text-heading-3 text-brand-1-heading;
+}
+
+.card-selected__list {
+    @apply m-0 flex w-full list-none flex-col gap-y-2 p-0;
+}
+
+.card-selected__list-item {
+    @apply base-text-tick-list m-0 flex w-full items-center gap-x-3 p-0;
+}
+
+.card-selected__list-item__icon {
+    @apply text-brand-1;
+}
+
+.card-selected__link {
+    @apply w-full self-end;
+}
+
+.card-selected__button {
+    @apply comp-button comp-button--primary;
+}

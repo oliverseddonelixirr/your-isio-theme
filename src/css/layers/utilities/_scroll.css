@@ -1,0 +1,5 @@
+@layer utilities {
+    .util-scroll-animation {
+        @apply transition-all duration-700 ease-in-out;
+    }
+}

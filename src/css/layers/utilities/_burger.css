@@ -1,0 +1,19 @@
+@layer utilities {
+    .util-burger {
+        @apply relative mb-1.5 mt-1.5 block h-0.5 w-8 select-none bg-brand-1 outline-1 outline-transparent transition-all;
+        @apply before:absolute before:-top-1.5 before:block before:h-0.5 before:w-8 before:bg-brand-1 before:outline-1 before:outline-transparent before:transition-all;
+        @apply after:absolute after:top-1.5 after:block after:h-0.5 after:w-8 after:bg-brand-1 after:outline-1 after:outline-transparent after:transition-all;
+    }
+
+    .util-burger-light {
+        @apply util-burger bg-neutral;
+        @apply before:bg-neutral;
+        @apply after:bg-neutral;
+    }
+
+    .util-burger-to-cross {
+        @apply bg-transparent;
+        @apply before:translate-y-1.5 before:rotate-45;
+        @apply after:-translate-y-1.5 after:-rotate-45;
+    }
+}

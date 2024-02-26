@@ -1,0 +1,20 @@
+{
+    "name": "acf/text-block",
+    "title": "Text Block",
+    "description": "A custom text block.",
+    "category": "edx-blocks",
+    "icon": "text-page",
+    "keywords": ["text"],
+    "supports": {
+        "align": ["full"]
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "auto"
+    }
+}

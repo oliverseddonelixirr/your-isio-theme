@@ -1,0 +1,43 @@
+html {
+    @apply bg-brand-footer;
+}
+
+body {
+    @apply base-text-body-light bg-white;
+
+    &.wp-editor {
+        @apply min-h-screen;
+    }
+
+    &.modal-open {
+        @apply static overflow-hidden;
+    }
+}
+
+a {
+    @apply no-underline transition-all;
+}
+
+.main {
+    @apply flex flex-col justify-start;
+
+    > main,
+    > div,
+    > article,
+    > sector {
+        @apply relative z-[1];
+    }
+}
+
+.main-content {
+    @apply overflow-hidden;
+}
+
+.content-container {
+    @apply base-container;
+}
+
+.single-content__container {
+    @apply base-container-row grid grid-cols-1 gap-y-12;
+    @apply md:gap-y-24;
+}

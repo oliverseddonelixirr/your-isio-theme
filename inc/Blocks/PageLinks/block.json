@@ -1,0 +1,20 @@
+{
+    "name": "acf/page-links",
+    "title": "Page Links",
+    "description": "",
+    "category": "edx-blocks",
+    "icon": "admin-links",
+    "keywords": ["header"],
+    "supports": {
+        "align": ["full"]
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "auto"
+    }
+}

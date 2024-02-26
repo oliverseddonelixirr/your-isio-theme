@@ -1,0 +1,7 @@
+.btn {
+    @apply comp-button comp-button--primary;
+
+    &.disabled {
+        @apply pointer-events-none;
+    }
+}

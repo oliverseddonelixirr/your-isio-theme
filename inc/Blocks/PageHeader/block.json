@@ -1,0 +1,20 @@
+{
+    "name": "acf/page-header",
+    "title": "Page Header",
+    "description": "Page header block with optional text and background configurations",
+    "category": "edx-blocks",
+    "icon": "text-page",
+    "keywords": ["header"],
+    "supports": {
+        "align": ["full"]
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "auto"
+    }
+}

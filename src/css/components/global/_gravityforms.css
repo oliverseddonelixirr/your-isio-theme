@@ -1,0 +1,71 @@
+/* prettier-ignore */
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='text'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='email'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='tel'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='checkbox'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='radio'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=url],
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_radio,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_radio .gchoice,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_radio input[type='radio'],
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_checkbox,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_checkbox .gchoice,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_checkbox input[type='checkbox'],
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_year input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_day input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_month input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_minute input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_hour input,
+body .gform_wrapper .gform_body .gform_fields .gfield .datepicker,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_ampm select,
+body .gform_wrapper .gform_body .gform_fields .gfield select,
+body .gform_wrapper .gform_body .gform_fields .gfield textarea {
+    @apply comp-input;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='text'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='email'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='tel'],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type='url'],
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_year input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_day input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_month input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_minute input,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_hour input,
+body .gform_wrapper .gform_body .gform_fields .gfield .datepicker,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_ampm select,
+body .gform_wrapper .gform_body .gform_fields .gfield select {
+    @apply comp-input--element;
+}
+
+/* prettier-ignore */
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label,
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_complex .ginput_left label,
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_complex .ginput_right label,
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_complex .ginput_full label,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_hour label,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_time_minute label,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_month label,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_day label,
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_date_year label {
+    @apply base-text-body-medium;
+}
+
+/* prettier-ignore */
+body .gform_wrapper .gform_body .gform_fields .gfield legend.gfield_label,
+body .gform_wrapper .gform_body .gform_fields .gfield .gform-field-label--type-inline {
+    @apply base-text-body-light;
+}
+
+/* prettier-ignore */
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
+    @apply items-center;
+}
+
+/* prettier-ignore */
+body .gform_wrapper .gform_body .gform_page_footer .gform_button,
+body .gform_wrapper .gform_footer input[type='submit'],
+body .gform-theme.gform-theme--framework.gform_wrapper.gform_wrapper .gform_body .gform_page_footer .gform_button,
+body .gform-theme.gform-theme--framework.gform_wrapper.gform_wrapper .gform_footer input[type='submit'] {
+    @apply comp-button comp-button--primary;
+}

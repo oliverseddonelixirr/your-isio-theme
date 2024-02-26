@@ -1,0 +1,7 @@
+.social-links {
+    @apply flex items-center gap-1;
+}
+
+.social-link {
+    @apply flex w-7 items-center justify-center py-1;
+}

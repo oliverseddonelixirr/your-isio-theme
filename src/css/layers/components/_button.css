@@ -1,0 +1,76 @@
+@layer components {
+    .comp-button-rounded {
+        @apply rounded-bl-button-border-bottom-left rounded-br-button-border-bottom-right rounded-tl-button-border-top-left rounded-tr-button-border-top-right;
+    }
+
+    .comp-button {
+        @apply comp-button-rounded base-text-body-medium flex min-h-10 w-fit items-center justify-center gap-2 border-2 border-transparent bg-transparent px-8 py-2 leading-none transition-colors duration-300;
+        @apply hover:cursor-pointer;
+        @apply focus-visible:ring-2 focus-visible:ring-offset-2;
+        @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+    }
+
+    .comp-button-circle {
+        @apply min-h-10 min-w-10 rounded-full p-0;
+    }
+
+    .comp-button--fat {
+        @apply p-3;
+    }
+
+    .comp-button--primary {
+        @apply bg-brand-1-heading text-white;
+        @apply hover:bg-brand-1-hover;
+        @apply group-hover:bg-brand-1-hover;
+        @apply active:bg-brand-1-active;
+        @apply focus-visible:ring-brand-1-hover;
+        @apply focus:ring-brand-1-hover;
+        @apply disabled:bg-brand-1/20 disabled:text-brand-1/20;
+
+        &.disabled {
+            @apply border-brand-1/30 bg-brand-1/20 text-brand-1/20;
+        }
+    }
+
+    .comp-button--primary-inverted {
+        @apply border-brand-1-heading text-brand-1-heading;
+        @apply hover:bg-brand-1-hover hover:text-white;
+        @apply group-hover:bg-brand-1-hover group-hover:text-white;
+        @apply active:bg-brand-1-active active:text-white;
+        @apply focus-visible:ring-brand-1-hover;
+        @apply focus:ring-brand-1-hover;
+        @apply disabled:bg-brand-1/20 disabled:text-brand-1/20;
+
+        &.disabled {
+            @apply border-brand-1/30 bg-brand-1/20 text-brand-1/20;
+        }
+    }
+
+    .comp-button--white {
+        @apply bg-white text-brand-1-heading;
+        @apply hover:bg-brand-1-hover hover:text-white;
+        @apply group-hover:bg-brand-1-hover group-hover:text-white;
+        @apply active:bg-brand-1-active active:text-white;
+        @apply focus-visible:ring-brand-1-hover;
+        @apply focus:ring-brand-1-hover;
+        @apply disabled:bg-brand-1/20 disabled:text-brand-1/20;
+
+        &.disabled {
+            @apply border-brand-1/30 bg-brand-1/20 text-brand-1/20;
+        }
+    }
+
+    .comp-button--ghost {
+        @apply border-2 border-transparent transition-colors duration-300;
+        @apply hover:cursor-pointer;
+        @apply focus-visible:ring-2 focus-visible:ring-brand-1-hover focus-visible:ring-offset-2;
+        @apply focus:outline-none focus:ring-2 focus:ring-brand-1-hover focus:ring-offset-2;
+    }
+
+    .comp-button--primary-ghost {
+        @apply border-2 border-transparent transition-colors duration-300;
+        @apply hover:cursor-pointer hover:text-brand-1-hover;
+        @apply focus-visible:ring-2 focus-visible:ring-brand-1-hover focus-visible:ring-offset-2;
+        @apply focus:outline-none focus:ring-2 focus:ring-brand-1-hover focus:ring-offset-2;
+    }
+}

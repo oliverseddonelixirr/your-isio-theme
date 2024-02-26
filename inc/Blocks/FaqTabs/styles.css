@@ -1,0 +1,59 @@
+.wp-block-faq-tabs {
+    @apply base-text-body-medium;
+}
+
+.wp-block-faq-tabs__inner {
+    @apply base-container base-container-row grid grid-cols-1 gap-y-8;
+    @apply lg:gap-y-14;
+}
+
+.wp-block-faq-tabs__header__title {
+    @apply base-text-heading-2 w-full text-brand-1-heading;
+}
+
+.wp-block-faq-tabs__tabs-wrapper {
+    @apply base-container--revert;
+    @apply lg:mx-0;
+}
+
+.wp-block-faq-tabs__tabs {
+    @apply hidden w-full border-b-4 border-b-brand-1;
+    @apply lg:inline-flex;
+}
+
+.wp-block-faq-tabs__tabs__button {
+    @apply base-text-tab-label block w-auto max-w-48 rounded-t border border-brand-1 bg-white px-9 py-3 text-left text-brand-1 transition-colors duration-300;
+    @apply hover:bg-brand-1-hover hover:text-white;
+    @apply active:bg-brand-1-active;
+    @apply focus-visible:ring-2 focus-visible:ring-brand-1-hover focus-visible:ring-offset-2;
+    @apply focus:outline-none;
+
+    &[aria-selected='true'] {
+        @apply bg-brand-1 text-white;
+        @apply hover:bg-brand-1-hover hover:text-white;
+        @apply active:bg-brand-1-active;
+    }
+}
+
+.wp-block-faq-tabs__tab-panels {
+    @apply w-full;
+}
+
+.wp-block-faq-tabs__details {
+    @apply w-full;
+}
+
+.wp-block-faq-tabs__summary {
+    @apply w-full list-none transition-colors duration-300;
+    @apply hover:cursor-pointer hover:text-brand-1-hover;
+    @apply focus-visible:ring-2 focus-visible:ring-brand-1-hover focus-visible:ring-offset-2;
+    @apply focus:outline-none;
+
+    &::-webkit-details-marker {
+        @apply hidden;
+    }
+
+    .wp-block-faq-tabs__details[open] & {
+        @apply text-brand-1;
+    }
+}

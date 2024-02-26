@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'layers/base/index.css';
+
+@import 'tailwindcss/components';
+@import 'layers/components/index.css';
+
+@import 'tailwindcss/utilities';
+@import 'layers/utilities/index.css';
+
+@import 'base/index.css';
+@import 'components/index.css';
+@import 'wp-blocks/index.css';
+
+@import-glob '../../inc/Blocks/**/*.css';
+@import-glob './vendor/**/*.css';

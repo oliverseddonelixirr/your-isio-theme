@@ -1,0 +1,35 @@
+.h1 {
+    @apply base-text-heading-1 text-brand-1-heading;
+}
+
+.h2 {
+    @apply base-text-heading-2 text-brand-1-heading;
+}
+
+.h3 {
+    @apply base-text-heading-3 text-brand-1-heading;
+}
+
+.h4 {
+    @apply base-text-heading-4 text-brand-1-heading;
+}
+
+.h5 {
+    @apply base-text-heading-5 text-brand-1-heading;
+}
+
+.h6 {
+    @apply base-text-heading-6 text-brand-1-heading;
+}
+
+.stand-first {
+    @apply base-text-stand-first;
+}
+
+p {
+    @apply base-text-body-light;
+
+    &strong {
+        @apply base-text-body-bold;
+    }
+}

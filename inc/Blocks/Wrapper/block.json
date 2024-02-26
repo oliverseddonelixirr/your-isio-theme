@@ -1,0 +1,21 @@
+{
+    "name": "acf/wrapper",
+    "title": "Wrapper",
+    "description": "",
+    "category": "edx-blocks",
+    "icon": "table-col-after",
+    "keywords": ["sidebar", "side"],
+    "supports": {
+        "align": ["full"],
+        "jsx": true
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "preview"
+    }
+}

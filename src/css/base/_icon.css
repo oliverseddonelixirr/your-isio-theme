@@ -1,0 +1,27 @@
+.edwp-icon--xsml {
+    @apply h-2 w-2;
+}
+
+.edwp-icon--sml {
+    @apply h-3 w-3;
+}
+
+.edwp-icon--reg {
+    @apply h-5 w-5;
+}
+
+.edwp-icon--med {
+    @apply h-7 w-7;
+}
+
+.edwp-icon--lrg {
+    @apply h-10 w-10;
+}
+
+.edwp-icon--xlg {
+    @apply h-24 w-24;
+}
+
+.edwp-icon--xxl {
+    @apply h-32 w-32;
+}

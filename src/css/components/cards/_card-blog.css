@@ -1,0 +1,81 @@
+.card-blog {
+    @apply relative;
+    @apply focus-within:ring-2 focus-within:ring-brand-1-hover focus-within:ring-offset-4;
+
+    &.swiper-slide {
+        @apply flex h-auto flex-col;
+    }
+}
+
+.card-blog__section {
+    @apply bg-brand-neutral-20;
+}
+
+.card-blog__link {
+    @apply comp-link from-brand-1-heading to-brand-1-heading;
+    @apply group-hover:from-brand-1-heading group-hover:to-brand-1-heading;
+}
+
+.card-blog__media {
+    @apply aspect-[4/3] flex-shrink-0 overflow-hidden;
+
+    .wp-block-cards--cols-1 & {
+        @apply lg:aspect-video;
+    }
+
+    img {
+        @apply comp-media-zoom block aspect-[4/3] w-full object-cover;
+
+        .wp-block-cards--cols-1 & {
+            @apply lg:aspect-video;
+        }
+    }
+}
+
+.card-blog__content {
+    @apply grid h-full grid-cols-1 items-start justify-start gap-2.5 py-2.5;
+}
+
+.card-blog__content__copy {
+    @apply flex w-full flex-col items-start justify-start gap-2.5;
+}
+
+.card-blog__date {
+    @apply flex w-full justify-between;
+}
+
+.card-blog__date__copy {
+    @apply base-text-body-sm-medium;
+}
+
+.card-blog__date__title {
+    @apply base-text-body-sm-light;
+}
+
+.card-blog__date__arrow {
+    @apply text-brand-1-heading;
+}
+
+.card-blog__title {
+    @apply base-text-body-medium;
+}
+
+.card-blog__taglist {
+    @apply base-text-body-sm-light mt-1 self-end;
+}
+
+.card-blog__taglist__list {
+    @apply m-0 inline-flex list-none flex-wrap gap-2 p-0;
+}
+
+.card-blog__taglist__item {
+    @apply base-text-body-sm-light comp-button-rounded inline-flex items-center justify-center border border-brand-1-heading px-3 py-1 leading-normal text-brand-1-heading;
+}
+
+.card-blog__taglist__item--inverted {
+    @apply border-white text-white;
+}
+
+.card-blog__label {
+    @apply highlight-label absolute left-0 top-0;
+}

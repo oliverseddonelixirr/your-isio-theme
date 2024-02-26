@@ -1,0 +1,20 @@
+{
+    "name": "acf/plsa-section-forms",
+    "title": "PLSA Section Forms",
+    "description": "",
+    "category": "edx-blocks",
+    "icon": "feedback",
+    "keywords": ["header"],
+    "supports": {
+        "align": ["full"]
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "auto"
+    }
+}

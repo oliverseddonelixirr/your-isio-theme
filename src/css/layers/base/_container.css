@@ -1,0 +1,59 @@
+@layer base {
+    .base-container {
+        @apply mx-auto w-full max-w-[calc((theme(spacing.5)*2)+theme(maxWidth.7xl))] px-5;
+        @apply md:max-w-[calc((theme(spacing.10)*2)+theme(maxWidth.7xl))] md:px-10;
+        @apply lg:max-w-[calc((theme(spacing.20)*2)+theme(maxWidth.7xl))] lg:px-20;
+    }
+
+    .base-container--max {
+        @apply mx-auto w-full max-w-[calc((theme(spacing.5)*2)+theme(maxWidth.7xl))];
+        @apply md:max-w-[calc((theme(spacing.10)*2)+theme(maxWidth.7xl))];
+        @apply lg:max-w-[calc((theme(spacing.20)*2)+theme(maxWidth.7xl))];
+    }
+
+    .base-container--revert-all {
+        @apply -mx-5 w-[calc((theme(spacing.5)*2)+100%)] max-w-[calc((theme(spacing.5)*2)+100%)];
+        @apply md:-mx-10 md:w-[calc((theme(spacing.10)*2)+100%)] md:max-w-[calc((theme(spacing.10)*2)+100%)];
+        @apply md:max-w-[calc((theme(spacing.20)*2)+100%)] lg:-mx-20 lg:w-[calc((theme(spacing.20)*2)+100%)];
+    }
+
+    .base-container--revert {
+        @apply -mx-5;
+        @apply md:-mx-10;
+    }
+
+    .base-container--revert-max {
+        @apply w-[calc((theme(spacing.5)*2)+100%)] max-w-[calc((theme(spacing.5)*2)+100%)];
+        @apply md:w-[calc((theme(spacing.10)*2)+100%)] md:max-w-[calc((theme(spacing.10)*2)+100%)];
+    }
+
+    .base-container--revert-inner {
+        @apply px-5;
+        @apply md:px-10;
+        @apply lg:px-0;
+    }
+
+    .base-container-row {
+        @apply py-8;
+        @apply md:py-16;
+        @apply lg:py-32;
+
+        .acf-innerblocks-container {
+            @apply grid grid-cols-1 gap-y-8;
+            @apply md:gap-y-16;
+            @apply lg:gap-y-28;
+        }
+    }
+
+    .base-container-row--small {
+        @apply py-8;
+        @apply md:py-16;
+        @apply lg:py-0;
+    }
+
+    .base-container-row--large {
+        @apply py-0;
+        @apply md:py-0;
+        @apply lg:py-32;
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "acf/plsa-sections-table",
+    "title": "PLSA Sections Table",
+    "description": "",
+    "category": "edx-blocks",
+    "icon": "grid-view",
+    "keywords": ["header"],
+    "supports": {
+        "align": ["full"]
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "acf": {
+        "mode": "auto"
+    }
+}

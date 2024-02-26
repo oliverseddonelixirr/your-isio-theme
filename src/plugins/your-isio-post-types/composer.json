@@ -1,0 +1,17 @@
+{
+    "name": "edx/edx-post-types",
+    "require": {
+        "jjgrainger/posttypes": "^2.2",
+        "stoutlogic/acf-builder": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "EdxPostTypes\\": "PostTypes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elixirr"
+        }
+    ]
+}

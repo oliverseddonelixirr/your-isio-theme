@@ -1,0 +1,96 @@
+.wp-block-plsa-section-forms {
+    @apply w-full;
+}
+
+.wp-block-plsa-section-forms--background {
+    @apply bg-brand-section-background;
+}
+
+.wp-block-plsa-section-forms__inner {
+    @apply base-container base-container-row grid grid-cols-1 gap-8;
+    @apply lg:grid-cols-2 lg:gap-10;
+}
+
+.wp-block-plsa-section-forms__card {
+    @apply comp-card grid justify-center border-b-[length:var(--isio-card-static-border-height)] border-b-brand-1 bg-white p-12 shadow-card;
+}
+
+.wp-block-plsa-section-forms__card__inner {
+    @apply grid items-start gap-y-4;
+}
+
+.wp-block-plsa-section-forms__card__media {
+    @apply mb-6 flex items-start justify-center text-brand-1-heading;
+    @apply lg:mb-0;
+}
+
+.wp-block-plsa-section-forms__card__main {
+    @apply grid w-full items-start gap-y-6;
+}
+
+.wp-block-plsa-section-forms__card__copy {
+    @apply flex w-full flex-wrap gap-y-6;
+}
+
+.wp-block-plsa-section-forms__card__title {
+    @apply base-text-heading-3 text-brand-1-heading;
+}
+
+.wp-block-plsa-section-forms__card__form {
+    @apply grid grid-cols-1 items-center gap-4;
+}
+
+.wp-block-plsa-section-forms__card__form-row {
+    @apply inline-flex w-full justify-between gap-x-4;
+}
+
+.wp-block-plsa-section-forms__card__form__label {
+    @apply w-full;
+}
+
+.wp-block-plsa-section-forms__card__form__block {
+    @apply base-text-body-medium flex h-full shrink-0 gap-x-1 align-middle text-brand-1-heading;
+}
+
+.wp-block-plsa-section-forms__card__form__input {
+    @apply max-w-24 shrink-0 px-1;
+}
+
+.wp-block-plsa-section-forms__card__average {
+    @apply base-text-body-medium mt-6 inline-flex justify-between;
+}
+
+.wp-block-plsa-section-forms__results {
+    @apply col-span-1 grid grid-cols-3 gap-8 divide-x-2 divide-brand-1 border-2 border-brand-1;
+    @apply md:flex-nowrap;
+    @apply lg:col-span-2 lg:gap-10;
+}
+
+.wp-block-plsa-section-forms__results__block {
+    @apply flex flex-wrap items-stretch gap-5 p-8;
+    @apply md:p-16;
+}
+
+.wp-block-plsa-section-forms__results-footer {
+    @apply flex self-end;
+}
+
+.wp-block-plsa-section-forms__results-row {
+    @apply inline-block w-full;
+}
+
+.wp-block-plsa-section-forms__value {
+    @apply base-text-heading-3 inline-block self-end text-brand-1-heading;
+}
+
+.wp-block-plsa-section-forms__icon {
+    @apply ml-5 text-brand-1-heading;
+
+    &.down {
+        @apply inline-block rotate-45;
+    }
+
+    &.up {
+        @apply inline-block -rotate-45;
+    }
+}

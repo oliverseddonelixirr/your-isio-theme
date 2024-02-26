@@ -1,0 +1,29 @@
+.wp-block-useful-links {
+    @apply comp-card flex w-full flex-col gap-y-8 border-brand-1 p-5;
+    @apply md:border md:p-10;
+
+    .wp-block-post-content &,
+    .single-post & {
+        @apply mx-auto w-full max-w-screen-md;
+    }
+}
+
+.wp-block-useful-links__title {
+    @apply base-text-heading-3 w-full text-brand-1-heading;
+}
+
+.wp-block-useful-links__link-list {
+    @apply m-0 flex w-full list-none flex-col gap-y-6 p-0;
+}
+
+.wp-block-useful-links__link-list__title {
+    @apply base-text-heading-5;
+}
+
+.wp-block-useful-links__link-list__link {
+    @apply base-text-heading-6 comp-link comp-link--primary inline-block gap-x-1 text-brand-1-heading;
+
+    svg {
+        @apply -mt-1  ml-1 inline-block;
+    }
+}

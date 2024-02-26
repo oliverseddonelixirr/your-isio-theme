@@ -1,0 +1,130 @@
+.header {
+    @apply relative top-0 z-50 flex border-b-header-bottom border-t-header-top border-brand-header-border bg-brand-header-bg;
+    @apply lg:sticky;
+
+    &.active {
+        @apply h-screen;
+    }
+}
+
+.header__container {
+    @apply base-container flex min-h-header flex-wrap justify-between self-start;
+
+    .active & {
+        @apply pt-[var(--isio-header-height)];
+    }
+}
+
+.header__container__header {
+    @apply base-container absolute left-0 right-0 top-0 z-50 flex h-[var(--isio-header-height)] w-full justify-between bg-brand-header-bg;
+    @apply xl:relative xl:m-0 xl:h-auto xl:w-auto xl:max-w-full xl:justify-start xl:px-0;
+}
+
+.header__logo {
+    @apply h-logo w-logo;
+    @apply xl:order-1;
+
+    .logo-btn {
+        @apply comp-button--ghost block border-0;
+    }
+
+    svg {
+        @apply h-logo w-logo;
+    }
+}
+
+.header__logo--start {
+    @apply self-start;
+}
+
+.header__logo--center {
+    @apply self-center;
+}
+
+.header__logo--end {
+    @apply self-end;
+}
+
+.header__buttons {
+    @apply flex items-center;
+    @apply xl:hidden;
+}
+
+.header__nav {
+    @apply invisible absolute -top-[100vh] left-0 grid bg-brand-header-bg transition-all duration-300;
+    @apply xl:visible xl:relative xl:left-auto xl:top-auto xl:order-2 xl:flex xl:w-auto xl:items-center;
+
+    &.active {
+        @apply base-container--revert-max base-container--revert visible relative top-0 mt-2;
+    }
+
+    .menu {
+        @apply flex flex-col;
+        @apply xl:flex-row xl:items-center xl:gap-x-20;
+    }
+
+    .menu-item {
+        @apply relative border-b border-b-gray-300;
+        @apply xl:inline-flex xl:border-b-0;
+
+        a {
+            @apply base-text-nav-text block p-5 text-brand-1;
+            @apply md:px-10;
+            @apply lg:px-20;
+            @apply xl:comp-link xl:max-w-full xl:p-0 xl:text-brand-nav;
+            @apply hover:no-underline;
+            @apply focus-visible:ring-2 focus-visible:ring-offset-2;
+            @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+            @apply focus-visible:ring-brand-1-hover;
+            @apply focus:ring-brand-1-hover;
+        }
+
+        &.current-menu-item {
+            a {
+                @apply comp-link--primary comp-link--active;
+            }
+        }
+    }
+}
+
+.menu-ctrl {
+    @apply comp-button--ghost relative ml-4 flex h-9 w-9 items-center justify-center;
+    @apply xl:hidden;
+}
+
+.menu-ctrl__burger {
+    @apply util-burger;
+
+    &.active {
+        @apply util-burger-to-cross;
+    }
+}
+
+.profile-btn {
+    @apply comp-button--primary-ghost p-2.5 text-brand-1;
+    @apply xl:text-brand-neutral-40;
+}
+
+.contact-btn {
+    @apply comp-button comp-button--primary hidden;
+    @apply xl:flex;
+}
+
+.contact-btn--mobile {
+    @apply my-10 flex justify-self-center;
+    @apply xl:hidden;
+}
+
+.header__links {
+    @apply invisible absolute -top-[100vh] flex-wrap items-center justify-between gap-x-4 transition-all duration-300;
+    @apply xl:visible xl:relative xl:top-0 xl:order-3 xl:inline-flex;
+
+    .active & {
+        @apply visible relative top-0 flex w-full;
+    }
+
+    .profile-btn {
+        @apply hidden;
+        @apply xl:block;
+    }
+}
